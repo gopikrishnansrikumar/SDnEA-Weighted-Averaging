@@ -1,0 +1,30 @@
+generated-timeseries:
+- anomalies:
+  - channel: 0
+    kinds:
+    - kind: variance
+      variance: 1.0
+    length: 70
+    position: beginning
+  - channel: 0
+    kinds:
+    - kind: variance
+      variance: 0.2
+    length: 60
+    position: middle
+  - channel: 0
+    kinds:
+    - kind: variance
+      variance: 0.5
+    length: 80
+    position: end
+  base-oscillations:
+  - frequency: 2
+    kind: ecg
+  generation-id: 0
+  length: 2500
+  name: series20_ecg_variance
+meta:
+  download_link: https://gitlab.hpi.de/akita/guten-tag
+  git_commit_sha: da7b34ff90a45cb7a836951d96d57dfb37b4ed01
+  seed: null
